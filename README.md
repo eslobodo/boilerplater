@@ -1,11 +1,11 @@
 Boilerplater
 =============
 
-Boilerplater is handy tool that helps me get over the boring process
-of creating new applications/test files/rake files/etc. in Ruby.
-You know it, you got an idea but the process of getting all files in
-place is boring and slows you down. In the end you find yourself dealing
-with with CSS and DataMapper configuration than working on the 'real'
+Boilerplater is a handy tool that helps me get over the boring process
+of creating new applications/test files/rake files/etc in Ruby.
+You know it, you've got an idea but the process of getting all files in
+place is boring and slows you down. In the end, you find yourself dealing
+with CSS and DataMapper configuration rather than working on the 'real'
 application logic.
 
 How it works?
@@ -13,16 +13,16 @@ How it works?
 
 I like to store my boiler plates somewhere where everyone can see them
 but also I can have some private ones. Also I want to have all templates
-in GIT, so I can easely update them once they are outdated. Yes, i'm looking
-at you GIST.
+in GIT, so I can easily update them once they are outdated. Yes, I'm looking
+at you, GIST.
 
-All boilerplates are just GIST snippets with the 'right' formatting. To store
-list of available boilerplates I use special public GIST#[3266785](https://gist.github.com/3266785).
-Everyone who wants to share his boilerplates and bootstrap files is welcomed
+All boilerplates are just GIST snippets with the 'right' formatting. To store a
+list of available boilerplates, I use special public GIST#[3266785](https://gist.github.com/3266785).
+Everyone who wants to share his boilerplates and bootstrap files is welcome
 to open an pull request on that GIST.
 
-To see how the actual boilerplate looks like navigate to GIST#[3265768](https://gist.github.com/3265768).
-Each file is annotated by the '^##' line with target filename. The bottom
+To see how the actual boilerplate looks like, navigate to GIST#[3265768](https://gist.github.com/3265768).
+Each file is annotated by the '^##' line with the target filename. The bottom
 content will be saved to that file. Also you can 'link' to remote files if you
 want. They will be downloaded to your project folder.
 
@@ -66,7 +66,7 @@ The [Sinatra application](https://gist.github.com/3265768) boilerplate
 will be installed into the current directory. If you want to install it
 somewhere else, use the '--prefix' parameter.
 
-Since the numeric ID is really challenge to remember, 'bp' has simple
+Since the numeric ID is really challenging to remember, 'bp' has simple
 aliasing system to create your own local aliases:
 
     $ bp alias create 3265768 sinatra
